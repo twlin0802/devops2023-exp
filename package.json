@@ -1,10 +1,11 @@
 {
   "name": "devops2023-exp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "demo",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/twlin0802/devops2023-exp/issues"
   },
-  "homepage": "https://github.com/twlin0802/devops2023-exp#readme"
+  "homepage": "https://github.com/twlin0802/devops2023-exp#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^8.0.0",
+    "semantic-release": "^22.0.5"
+  }
 }
